@@ -1,5 +1,7 @@
 #Lookup a company on Crunchbase bookmarklet
 
+Go to [Home page](http://shawiz.github.com/Lookup-Company/) for easy instllation.
+
 Always check a company by manually searching the name on Crunchbase? This bookmarklet solves your pain.
 
 Make a new bookmark on your bookmark bar and copy this 
