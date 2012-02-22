@@ -1,7 +1,7 @@
 #Lookup a company on Crunchbase bookmarklet
 
 
-Always check a company by manually searching the name on Crunchbase? This bookmarklet solves your pain. Click on the bookmarklet to search this website on Crunchbase.
+Always check a company by manually searching the name on Crunchbase? This bookmarklet solves your pain. Click on the bookmarklet to search current website on Crunchbase.
 
 Go to [Home page](http://shawiz.github.com/Lookup-Company/) for easy instllation.
 
