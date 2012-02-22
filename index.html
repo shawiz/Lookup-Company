@@ -8,7 +8,7 @@
   <style type="text/css">
     body {
       margin-top: 1.0em;
-      background-color: #5895A4;
+      background-color: #ffffff;
       font-family: Helvetica, Arial, FreeSans, san-serif;
       color: #000000;
     }
@@ -16,17 +16,33 @@
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 3.8em; color: #a76a5b; margin-bottom: 3px; }
+    h1 { font-size: 3.8em; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #a76a5b; }
-    h3 { text-align: center; color: #a76a5b; }
-    a { color: #a76a5b; }
+    .small a { color: #19558D; }
+    h1 a { text-decoration: none; color: #000000; }
+    h2 { font-size: 1.5em; }
+    h3 { text-align: center; }
+    a { color: #19558D; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    p { margin-bottom: 20px; }
     .footer { text-align:center; padding-top:30px; font-style: italic; }
+    #bookmarklet {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+        border: 1px solid black;
+        border-radius: 16px;
+        box-shadow: 0 1px 0 #AAAAAA inset;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.5em;
+        padding: 0.1em 1em 0;
+        text-decoration: none;
+        margin: 0 0.2em;
+        text-shadow: 0 -1px 0 black;
+    }
   </style>
 </head>
 
@@ -46,30 +62,18 @@
       <span class="small">by <a href="https://github.com/shawiz">shawiz</a></span></h1>
 
     <div class="description">
-      A simple bookmarklet for you to look up company on Crunchbase
+      A simple bookmarklet for you to look up a company on Crunchbase
     </div>
-
     
-
+    <h2>Author</h2>
+    <p>Sean Ren (<a title="Follow @shawiz on Twitter" target="_blank" href="http://twitter.com/shawiz">@shawiz</a>)</p>
     
-
+    <h2>Installation</h2>
+    <p>Drag <a id="bookmarklet" title="Lookup" href="javascript:function%20luc(){var%20d=document,b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Looking%20up%20company...)%20'+d.title;l.href='http://www.crunchbase.com/search?query='+l.hostname.match(/[\w\-]+\.[a-zA-Z]+$/);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}luc();void(0)">Lookup</a> to your bookmark bar.</p>
     
-
-    
-
-    
-      <h2>Authors</h2>
-      <p>Sean Ren (shawiz@gmail.com)<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p>Sean Ren (shawiz@gmail.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
+    <h2>Download Source</h2>
     <p>
-      You can download this project in either
+      You can download this project source code in either
       <a href="https://github.com/shawiz/Lookup-Company/zipball/master">zip</a> or
       <a href="https://github.com/shawiz/Lookup-Company/tarball/master">tar formats.
     </p>
